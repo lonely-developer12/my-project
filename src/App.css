@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 200px;
+  
+}
+.App-header {
+  background-color: #282c34;
+  max-height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  gap: 20px;
+
+}
+.App-link {
+  color: #61dafb;
+}
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+
+.particles-background {
+  z-index: -1;
+}
